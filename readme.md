@@ -10,7 +10,9 @@
 ### Run
 
 * webpack-dev-server --content-base app/ --hot
+
 or
+
 * npm start
 
 ### Visualize
