@@ -5,6 +5,7 @@
 * npm install webpack -g
 * npm install webpack-dev-server -g
 * npm install
+* bower install --save lumx
 * webpack
 
 ### Run
@@ -24,3 +25,4 @@ or
 
 * https://github.com/webpack/webpack
 * https://github.com/ShMcK/WebpackAngularDemos/tree/master/Part1
+* https://github.com/ShMcK/WebpackAngularDemos/tree/master/Part2

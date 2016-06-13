@@ -2,10 +2,21 @@
     <head>
         <meta charset="utf-8">
         <title>Webpack</title>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+
     </head>
     <body>
         <h1>Webpack</h1>
-        <p>Angular is working ? {{ 1 + 1 == 2}}
+        <h3>Angular</h3>
+        <p>Angular is working ? {{ 1 + 1 == 2}}</p>
+        <h3>LumX</h3>
+        <p class='fs-headline my-lumx-blue'>Twitter : <i class="mdi mdi-twitter"></i> @quentinmonmert</p>
+        <div class="p+ my-lumx-blue">
+            <lx-button lx-type="raised">Button</lx-button>
+            <lx-button lx-type="flat">Button</lx-button>
+            <lx-button lx-type="fab"><i class="mdi mdi-plus"></i></lx-button>
+            <lx-button lx-type="icon"><i class="mdi mdi-plus"></i></lx-button>
+        </div>
         <script type="text/javascript" src="dist/bundle.js" charset="utf-8"></script>
     </body>
 </html>
